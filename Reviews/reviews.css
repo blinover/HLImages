@@ -1,0 +1,175 @@
+
+:root {
+  --color-body: #171f26;
+  --color-text-white: #ffffff;
+  --color-text-secondary: #EBF1F7;
+  --color-text-grey: #FAFCFF;
+  --color-block-background: #202B36;
+  --color-badge: #FF7438;
+  --color-border: #313C47;
+}
+
+h1,h2,h2,h3,h4,h5,p {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 38px;
+  color: var(--color-text-grey);
+  margin-bottom: 28px;
+  line-height: 44px;
+  opacity: .85;
+}
+
+h2 {
+  font-size: 38.8px;
+  line-height: 44px;
+  margin-bottom: 20px;
+  color: var(--color-text-white);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: Inter, Roboto, Arial, 'sans-serif';
+  font-size: 16px;
+  line-height: 17px;
+  margin: 0;
+  background-color: var(--color-body);
+  color: var(--color-text-white);
+}
+
+
+.container {
+  max-width: 1264px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+
+.subscribers {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 60px;
+}
+
+.subscribers__item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.subscribe {
+  padding: 21px 25px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  background: var(--color-block-background);
+  color: var(--color-text-grey);
+  font-weight: 700;
+  opacity: .85;
+}
+
+.subscribe__icon {
+  max-width: 34px;
+  max-height: 34px;
+}
+
+.subscribe__badge {
+  padding: 3px 6px;
+  margin-left: auto;
+  background-color: var(--color-badge);
+  border-radius: 8px;
+  font-weight: 500;
+  color: var(--color-text-white);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 84px;
+}
+
+.description__item {
+  max-width: 1120px;
+  color: var(--color-text-secondary);
+}
+
+.description__text {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  opacity: .85;
+}
+
+.description__indent {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px auto 0 auto;
+  max-width: 1073px;
+  opacity: .85;
+}
+
+.description__item:last-child .description__indent {
+  margin-bottom: 20px;
+}
+
+.description__text_bold {
+  font-size: 14.5px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+.reviews__item {
+  padding: 12px 76px 12px 21px;
+  border-radius: 16px;
+  border: 1px solid var(--color-border);
+  background: var(--color-block-background);
+  color: var(--color-text-grey);
+  font-weight: 700;
+  opacity: .85;
+}
+
+.reviews__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review {
+  color: var(--color-text-grey);
+}
+
+.review__title {
+  margin-bottom: 28px;
+}
+
+.review__caption {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.review__raiting {
+  color: #EEFF00;
+  letter-spacing: 3px;
+}
+
+.review__date {
+  font-size: 10px;
+  line-height: 24px;
+  opacity: .6;
+}
+
+.review__text {
+  font-size: 15.7px;
+  line-height: 24px;
+  opacity: .85;
+}
