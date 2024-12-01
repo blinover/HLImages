@@ -1059,7 +1059,7 @@ h3 {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .header {
     background-size: cover;
     padding-bottom: 60px;
