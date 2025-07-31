@@ -3,11 +3,13 @@
     border-radius: 16px;
     padding: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    white-space: normal !important;
 }
 
 .seo-header {
     margin-bottom: 40px;
     text-align: center;
+    white-space: normal !important;
 }
 
 .seo-h1 {
@@ -16,6 +18,7 @@
     font-weight: 700;
     line-height: 1.3;
     color: #ffffff;
+    white-space: normal !important;
 }
 
 .seo-intro {
@@ -25,10 +28,12 @@
     max-width: 800px;
     color: #e0e0e0;
     text-align: center;
+    white-space: normal !important;
 }
 
 .seo-section {
     margin-bottom: 3.5rem;
+    white-space: normal !important;
 }
 
 .seo-h2 {
@@ -38,6 +43,7 @@
     color: #ffffff;
     position: relative;
     text-align: center;
+    white-space: normal !important;
 }
 
 .seo-h2::after {
@@ -49,6 +55,7 @@
     width: 80px;
     height: 3px;
     background: #2ecc71;
+    white-space: normal !important;
 }
 
 .seo-benefits-grid {
@@ -56,6 +63,7 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 25px;
     margin-top: 2.5rem;
+    white-space: normal !important;
 }
 
 .seo-benefit-card {
@@ -64,17 +72,20 @@
     padding: 30px;
     transition: all 0.3s ease;
     text-align: center;
+    white-space: normal !important;
 }
 
 .seo-benefit-card:hover {
     transform: translateY(-5px);
     background: rgba(46, 204, 113, 0.12);
     box-shadow: 0 10px 20px rgba(46, 204, 113, 0.1);
+    white-space: normal !important;
 }
 
 .seo-benefit-icon {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    white-space: normal !important;
 }
 
 .seo-h3 {
@@ -82,6 +93,7 @@
     margin: 0 0 1rem;
     font-weight: 500;
     color: #ffffff;
+    white-space: normal !important;
 }
 
 .seo-h3-services {
@@ -89,18 +101,21 @@
     margin: 0 0 1rem;
     font-weight: 700;
     color: #a8e6cf ;
+    white-space: normal !important;
 }
 
 .seo-p {
     font-size: 1.05rem;
     margin: 0;
     color: #e0e0e0;
+    white-space: normal !important;
 }
 
 .seo-reels {
     background: rgba(46, 204, 113, 0.05);
     padding: 2.5rem;
     border-radius: 16px;
+    white-space: normal !important;
 }
 
 .seo-features {
@@ -108,11 +123,13 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
     margin-top: 2rem;
+    white-space: normal !important;
 }
 
 .seo-feature {
     display: flex;
     align-items: flex-start;
+    white-space: normal !important;
 }
 
 .seo-feature-number {
@@ -128,12 +145,14 @@
     margin-right: 20px;
     flex-shrink: 0;
     font-size: 1.2rem;
+    white-space: normal !important;
 }
 
 .seo-advantages-list {
     list-style: none;
     padding: 0;
     margin: 2.5rem 0 0;
+    white-space: normal !important;
 }
 
 .seo-advantage-item {
@@ -144,10 +163,12 @@
     background: rgba(255, 255, 255, 0.03);
     border-radius: 10px;
     transition: all 0.3s ease;
+    white-space: normal !important;
 }
 
 .seo-advantage-item:hover {
     background: rgba(46, 204, 113, 0.08);
+    white-space: normal !important;
 }
 
 .seo-check-icon {
@@ -155,6 +176,7 @@
     height: 28px;
     margin-right: 20px;
     flex-shrink: 0;
+    white-space: normal !important;
 }
 
 .seo-cta {
@@ -164,6 +186,7 @@
     margin-top: 4rem;
     margin-bottom: 3.5rem;
     text-align: center;
+    white-space: normal !important;
 }
 
 .seo-button {
@@ -177,27 +200,32 @@
     transition: all 0.3s ease;
     margin: 2rem 0 1rem;
     font-weight: 500;
+    white-space: normal !important;
 }
 
 .seo-button-link {
     display: inline-block;
     text-decoration: none;
+    white-space: normal !important;
 }
 
 .seo-button:hover {
     background-color: #27ae60;
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(46, 204, 113, 0.3);
+    white-space: normal !important;
 }
 
 .seo-note {
     font-size: 0.9rem;
     color: #b0b0b0;
     margin: 0;
+    white-space: normal !important;
 }
 
 .seo-faq {
     margin-top: 2rem;
+    white-space: normal !important;
 }
 
 .seo-faq-item {
@@ -206,16 +234,19 @@
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     transition: all 0.3s ease;
+    white-space: normal !important;
 }
 
 .seo-faq-item:hover {
     background: rgba(46, 204, 113, 0.05);
+    white-space: normal !important;
 }
 
 .seo-testimonials {
     background: rgba(255, 255, 255, 0.03);
     padding: 2.5rem;
     border-radius: 16px;
+    white-space: normal !important;
 }
 
 .seo-testimonials-grid {
@@ -223,6 +254,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 25px;
     margin-top: 2rem;
+    white-space: normal !important;
 }
 
 .seo-testimonial-card {
@@ -230,17 +262,20 @@
     border-radius: 12px;
     padding: 25px;
     transition: all 0.3s ease;
+    white-space: normal !important;
 }
 
 .seo-testimonial-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(46, 204, 113, 0.1);
+    white-space: normal !important;
 }
 
 .seo-testimonial-header {
     display: flex;
     align-items: center;
     margin-bottom: 15px;
+    white-space: normal !important;
 }
 
 .seo-testimonial-avatar {
@@ -255,11 +290,13 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-right: 15px;
+    white-space: normal !important;
 }
 
 .seo-testimonial-rating {
     color: #f1c40f;
     font-size: 1.1rem;
+    white-space: normal !important;
 }
 
 /* Стили для других услуг */
@@ -268,6 +305,7 @@
     padding: 2.5rem;
     margin-top: 4rem;
     border-radius: 16px;
+    white-space: normal !important;
 }
 
 .seo-services-grid {
@@ -275,22 +313,26 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin-top: 2rem;
+    white-space: normal !important;
 }
 
 .seo-services-group {
     background: rgba(46, 204, 113, 0.05);
     border-radius: 12px;
     padding: 20px;
+    white-space: normal !important;
 }
 
 .seo-services-list {
     list-style: none;
     padding: 0;
     margin: 1rem 0 0;
+    white-space: normal !important;
 }
 
 .seo-services-list li {
     margin-bottom: 0.8rem;
+    white-space: normal !important;
 }
 
 .seo-service-link {
@@ -298,20 +340,24 @@
     text-decoration: none;
     transition: color 0.3s ease;
     font-size: 1.05rem;
+    white-space: normal !important;
 }
 
 .seo-service-link:hover {
     color: #2ecc71;
     text-decoration: underline;
+    white-space: normal !important;
 }
 
 @media (max-width: 768px) {
     .seo-h1 {
         font-size: 2rem;
+        white-space: normal !important;
     }
 
     .seo-h2 {
         font-size: 1.6rem;
+        white-space: normal !important;
     }
 
     .seo-benefits-grid,
@@ -319,25 +365,30 @@
     .seo-testimonials-grid,
     .seo-services-grid {
         grid-template-columns: 1fr;
+        white-space: normal !important;
     }
 
     .seo-cta {
         padding: 2rem;
+        white-space: normal !important;
     }
 
     .seo-article {
         padding: 25px;
+        white-space: normal !important;
     }
 
     .seo-reels,
     .seo-testimonials,
     .seo-other-services {
         padding: 1.5rem;
+        white-space: normal !important;
     }
 
     .seo-feature-number {
         width: 30px;
         height: 30px;
         font-size: 1rem;
+        white-space: normal !important;
     }
 }
